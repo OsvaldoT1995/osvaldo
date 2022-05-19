@@ -6,6 +6,13 @@
  * @author 
  * @version 1.00 2021/4/29
  */
+
+
+/**
+ * hola
+ *hola Ing Osvaldo
+ * 
+ */
 import java.util.ArrayList;
 
 public class ArrayListExample {
@@ -26,10 +33,10 @@ public class ArrayListExample {
     	
     	ArrayList<Integer> numeros = new ArrayList<Integer>();
     	numeros.add(1);
-    	numeros.add(3);
+    	numeros.add(1);
+    	numeros.add(1);
     	numeros.add(2);
-    	numeros.add(5);
-    	numeros.add(4);
+    	numeros.add(1);
     	System.out.println(numeros);
     	System.out.println("Tamaño de lista de números: " + numeros.size());
     	numeros.remove(2);
